@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((10#16)) | tr " " ".\n" DECIMAL
+echo 'obase=16;$DECIMAL' | bc
